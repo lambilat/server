@@ -59,11 +59,14 @@ def check_url():
         if not url_dict[url]['status'] == 'failed':
             print(" Checking:",url[0:50])
             try:
+                start_ts = time.time()
                 response = requests.get(url, timeout=10)
                 if response.status_code == 200:
                     is_response = True
                     #print(url,response.status_code)
-                    return_content += 'URL: '+url+'<br>Status: Success.<br>--------------------<br>'
+                    return_content += 'URL: '+url+'<br>Status: Success.<br>'
+                    return_content += 'Response Time: '+str(time.time()-start_ts)+'<br>'
+                    return_content += '--------------------<br>'
             except Exception as e:
                 pass
             if not is_response:
