@@ -48,7 +48,13 @@ url_dict = {
 
 
 
-
+@app.route('/debug')
+def debug_url():
+    try:
+        with open('samplefile', 'r')as file:
+            return file.read()
+    except Exception as e:
+        return 'Error: '+str(e)
 
 
 @app.route('/check')
