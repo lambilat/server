@@ -1,4 +1,4 @@
 #EXTM3U
-#EXTINF:0 tvg-name="One Piece" subtitles="vtt" tvg-logo="https://www.themoviedb.org/t/p/original/fcXdJlbSdUEeMSJFsXKsznGwwok.jpg", Episode 1
+#EXTINF:-1 tvg-name="One Piece" tvg-logo="https://www.themoviedb.org/t/p/original/fcXdJlbSdUEeMSJFsXKsznGwwok.jpg", Episode 1
 https://tc-1.boocdn.net/_v6/afac8bbbca056b092212c8a33e75099166dd1775d0dd1f6f2d8fd2d22c6d9692435d225cdd67aa6cb5d4d2688d500e49b2db6e2def7c87b5c0b522386ba89aec8e08e0f71a170319f59c4f2294e9fda7492e901b979fab1a2395c13a757d4a3c644971958720f8ca0b7dba9b91e10c58af4082384b4b46f0fbfbb25d7da70549/master.m3u8
 
